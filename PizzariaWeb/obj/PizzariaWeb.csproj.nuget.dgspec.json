@@ -154,7 +154,11 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Jony\\source\\repos\\PizzariaWeb\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Jony\\source\\repos\\PizzariaWeb\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
