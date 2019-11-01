@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaWeb", "PizzariaWeb\PizzariaWeb.csproj", "{C70DDF68-ABBC-463A-A5BB-4ED8014A4C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{9BAEBF54-3231-4A47-8AA3-6AE4D379921A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{2183A369-AFA5-4493-BEFD-3C86721987A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C70DDF68-ABBC-463A-A5BB-4ED8014A4C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70DDF68-ABBC-463A-A5BB-4ED8014A4C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70DDF68-ABBC-463A-A5BB-4ED8014A4C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70DDF68-ABBC-463A-A5BB-4ED8014A4C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BAEBF54-3231-4A47-8AA3-6AE4D379921A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAEBF54-3231-4A47-8AA3-6AE4D379921A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAEBF54-3231-4A47-8AA3-6AE4D379921A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAEBF54-3231-4A47-8AA3-6AE4D379921A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2183A369-AFA5-4493-BEFD-3C86721987A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2183A369-AFA5-4493-BEFD-3C86721987A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2183A369-AFA5-4493-BEFD-3C86721987A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2183A369-AFA5-4493-BEFD-3C86721987A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA526377-08AC-43CB-A503-1EED05D2AED0}
+	EndGlobalSection
+EndGlobal
