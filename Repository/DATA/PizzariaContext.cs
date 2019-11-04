@@ -13,6 +13,8 @@ namespace Repository.DATA
         {
 
         }
+        public DbSet<Funcionario> Funcionarios { get; set; }
+        public DbSet<Cargo> Cargos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

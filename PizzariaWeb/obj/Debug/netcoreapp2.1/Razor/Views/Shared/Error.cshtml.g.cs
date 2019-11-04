@@ -23,8 +23,13 @@ using PizzariaWeb.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\Views\_ViewImports.cshtml"
+using Domain.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"583387379a597938339285f5a623245873b0a91c", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"818677447a3268166263a84558394031d73a62b3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"51c08a2e1dd721301d0ffc754c2fbb8b77e68eb1", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

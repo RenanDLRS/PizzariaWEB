@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Repository.DAL;
 using Repository.DATA;
 
 namespace PizzariaWeb
@@ -31,7 +32,10 @@ namespace PizzariaWeb
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+            //Configurando injeção de dependência
+            services.AddScoped<FuncionarioDAO>();
+            services.AddScoped<CargoDAO>();
+            //Configuração do contexto para as migrações
             services.AddDbContext<PizzariaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("PizzariaConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
