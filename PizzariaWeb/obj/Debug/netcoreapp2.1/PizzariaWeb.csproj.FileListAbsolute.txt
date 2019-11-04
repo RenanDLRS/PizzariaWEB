@@ -20,6 +20,10 @@ C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Pizza
 C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\PizzariaWeb.TagHelpers.input.cache
 C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\PizzariaWeb.TagHelpers.output.cache
 C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\PizzariaWeb.RazorCoreGenerate.cache
+C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Cargo\Index.cshtml.g.cs
+C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Funcionario\Alterar.cshtml.g.cs
+C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Funcionario\Cadastrar.cshtml.g.cs
+C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Funcionario\Index.cshtml.g.cs
 C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
 C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
@@ -36,6 +40,3 @@ C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Pizza
 C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\PizzariaWeb.csproj.CopyComplete
 C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\PizzariaWeb.dll
 C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\PizzariaWeb.pdb
-C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Funcionario\Index.cshtml.g.cs
-C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Funcionario\Cadastrar.cshtml.g.cs
-C:\Users\Jony\source\repos\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Funcionario\Alterar.cshtml.g.cs

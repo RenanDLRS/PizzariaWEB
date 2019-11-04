@@ -24,12 +24,19 @@ namespace Repository.DAL
 
         public bool Cadastrar(Cargo objeto)
         {
-            throw new NotImplementedException();
+            _context.Cargos.Add(objeto);
+            _context.SaveChanges();
+            return true;
         }
 
         public List<Cargo> Listar()
         {
             return _context.Cargos.ToList();
+        }
+        public void Remover(int id)
+        {
+            _context.Cargos.Remove(BuscarPorId(id));
+            _context.SaveChanges();
         }
     }
 }
