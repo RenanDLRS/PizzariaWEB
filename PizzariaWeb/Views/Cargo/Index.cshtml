@@ -1,4 +1,4 @@
-﻿@model List<Cargo>
+﻿@model Cargo
 
 <div class="col-sm-6">
     <h2>Cargos registrados</h2>
@@ -12,7 +12,7 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (Cargo item in Model)
+            @foreach (Cargo item in ViewBag.ListaCargo)
             {
                 <tr>
                     <td>@item.Nome</td>
@@ -34,12 +34,12 @@
 
             <div class="form-group" id="Nome">
                 <label>Nome</label>
-                <input type="text" name="txtNome" id="txtNome" class="form-control" />
+                <input type="text" asp-for="Nome" class="form-control" />
             </div>
 
             <div class="form-group" id="Descricao">
                 <label>Salario</label>
-                <input type="text" name="txtSalario" id="txtSalario" class="form-control" />
+                <input type="text" asp-for="Salario" class="form-control" />
             </div>
 
             <input type="submit" class="btn btn-success" value="Cadastrar" />

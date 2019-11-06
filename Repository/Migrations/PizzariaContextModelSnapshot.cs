@@ -19,6 +19,23 @@ namespace Repository.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Domain.Models.Bebida", b =>
+                {
+                    b.Property<int>("BebidaId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CriadoEm");
+
+                    b.Property<string>("Nome");
+
+                    b.Property<double>("Preco");
+
+                    b.HasKey("BebidaId");
+
+                    b.ToTable("Bebidas");
+                });
+
             modelBuilder.Entity("Domain.Models.Cargo", b =>
                 {
                     b.Property<int>("CargoId")
@@ -51,6 +68,38 @@ namespace Repository.Migrations
                     b.HasIndex("CargoId");
 
                     b.ToTable("Funcionarios");
+                });
+
+            modelBuilder.Entity("Domain.Models.Sabor", b =>
+                {
+                    b.Property<int>("SaborId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CriadoEm");
+
+                    b.Property<string>("Nome");
+
+                    b.HasKey("SaborId");
+
+                    b.ToTable("Sabores");
+                });
+
+            modelBuilder.Entity("Domain.Models.Tamanho", b =>
+                {
+                    b.Property<int>("TamanhoId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Nome");
+
+                    b.Property<double>("Preco");
+
+                    b.Property<int>("QtdSabores");
+
+                    b.HasKey("TamanhoId");
+
+                    b.ToTable("Tamanhos");
                 });
 
             modelBuilder.Entity("Domain.Models.Funcionario", b =>

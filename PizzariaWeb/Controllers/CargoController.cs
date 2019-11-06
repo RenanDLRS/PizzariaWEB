@@ -20,19 +20,15 @@ namespace PizzariaWeb.Controllers
         #region INDEX LISTAR CADASTRAR
         public IActionResult Index()
         {
-            ViewBag.Cargo = new Cargo();
-            return View(_cargoDAO.Listar());
+            ViewBag.ListaCargo = _cargoDAO.Listar();
+            return View();
         }
         [HttpPost]
-        public IActionResult Index(string txtNome, string txtSalario)
+        public IActionResult Index(Cargo c)
         {
-            Cargo cargo = new Cargo
-            {
-                Nome = txtNome,
-                Salario = Convert.ToDouble(txtSalario)
-            };
-            _cargoDAO.Cadastrar(cargo);
-            return View(_cargoDAO.Listar());
+            _cargoDAO.Cadastrar(c);
+            ViewBag.ListaCargo = _cargoDAO.Listar();
+            return View();
         }
         #endregion
         #region REMOVER

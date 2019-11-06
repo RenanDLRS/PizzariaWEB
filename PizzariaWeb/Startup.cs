@@ -35,6 +35,9 @@ namespace PizzariaWeb
             //Configurando injeção de dependência
             services.AddScoped<FuncionarioDAO>();
             services.AddScoped<CargoDAO>();
+            services.AddScoped<TamanhoDAO>();
+            services.AddScoped<SaborDAO>();
+            services.AddScoped<BebidaDAO>();
             //Configuração do contexto para as migrações
             services.AddDbContext<PizzariaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("PizzariaConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
