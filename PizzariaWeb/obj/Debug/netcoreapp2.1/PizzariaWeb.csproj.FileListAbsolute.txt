@@ -129,3 +129,6 @@ C:\Users\Jony\Desktop\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\PizzariaWe
 C:\Users\Jony\Desktop\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\PizzariaWeb.pdb
 C:\Users\Jony\Desktop\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Index.cshtml.g.cs
 C:\Users\Jony\Desktop\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Cadastrar.cshtml.g.cs
+C:\Users\Aluno\Desktop\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Sabor\Index.g.cshtml.cs
+C:\Users\Aluno\Desktop\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Cadastrar.g.cshtml.cs
+C:\Users\Aluno\Desktop\PizzariaWeb\PizzariaWeb\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Index.g.cshtml.cs
