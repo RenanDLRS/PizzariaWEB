@@ -18,6 +18,8 @@ namespace Repository.DATA
         public DbSet<Sabor> Sabores { get; set; }
         public DbSet<Tamanho> Tamanhos { get; set; }
         public DbSet<Bebida> Bebidas { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,6 +28,8 @@ namespace Repository.DATA
             modelBuilder.Entity<Sabor>().ToTable("Sabores");
             modelBuilder.Entity<Tamanho>().ToTable("Tamanhos");
             modelBuilder.Entity<Bebida>().ToTable("Bebidas");
+            modelBuilder.Entity<Usuario>().ToTable("Usuarios");
+            modelBuilder.Entity<Endereco>().ToTable("Enderecos");
         }
 
     }

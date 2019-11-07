@@ -14,3 +14,10 @@ C:\Users\Aluno\Desktop\PizzariaWeb\Domain\obj\Debug\netcoreapp2.1\Domain.Assembl
 C:\Users\Aluno\Desktop\PizzariaWeb\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfo.cs
 C:\Users\Aluno\Desktop\PizzariaWeb\Domain\obj\Debug\netcoreapp2.1\Domain.dll
 C:\Users\Aluno\Desktop\PizzariaWeb\Domain\obj\Debug\netcoreapp2.1\Domain.pdb
+C:\Users\Jony\Desktop\PizzariaWeb\Domain\bin\Debug\netcoreapp2.1\Domain.deps.json
+C:\Users\Jony\Desktop\PizzariaWeb\Domain\bin\Debug\netcoreapp2.1\Domain.dll
+C:\Users\Jony\Desktop\PizzariaWeb\Domain\bin\Debug\netcoreapp2.1\Domain.pdb
+C:\Users\Jony\Desktop\PizzariaWeb\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Jony\Desktop\PizzariaWeb\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfo.cs
+C:\Users\Jony\Desktop\PizzariaWeb\Domain\obj\Debug\netcoreapp2.1\Domain.dll
+C:\Users\Jony\Desktop\PizzariaWeb\Domain\obj\Debug\netcoreapp2.1\Domain.pdb

@@ -38,6 +38,8 @@ namespace PizzariaWeb
             services.AddScoped<TamanhoDAO>();
             services.AddScoped<SaborDAO>();
             services.AddScoped<BebidaDAO>();
+            services.AddScoped<UsuarioDAO>();
+
             //Configuração do contexto para as migrações
             services.AddDbContext<PizzariaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("PizzariaConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
